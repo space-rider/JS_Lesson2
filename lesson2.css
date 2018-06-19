@@ -2,10 +2,15 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
-.header__title{
+.header__title {
     background-color: yellow;
     text-align: left;
-    padding:  10px 20px 20px;
+    padding: 10px 20px 20px;
+    user-select: none;
+}
+
+.first__block {
+    user-select: none;
 }
 
 .first__block, .second__block, .third__block, .fourth__block, .bonus_block {
@@ -36,6 +41,7 @@
 
 h2 {
     padding: 10px 15px;
+    user-select: none;
 }
 
 .block__p {
